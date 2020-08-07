@@ -1,0 +1,75 @@
+.main-conatiner {
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 3px solid black;
+}
+
+.cognivuelogo {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.head-container {
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-container {
+    border: 2px solid black;
+    position: absolute;
+    top: 174px;
+    right: 400px;
+}
+
+.clarity-image {
+    float: left;
+    width: 480px;
+    height: 248px;
+}
+
+.intro-container {
+    font-size: large;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 540px;
+    margin-left: 40px;
+    display: grid;
+}
+.cards{
+    height: 250px;
+    margin-left: 40px;
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+.card1{
+    border: 2px solid black;
+}
+.card2{
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 2px solid black;
+}
+.card3{
+    text-align: center;
+    border: 2px solid black;
+}
+.contact-container{
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
